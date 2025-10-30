@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ 
+ .container{
+    border:2px solid black;
+    padding: 30px;
+    border-radius: 5px;
+    height: auto;
+ }
+
+ #qr-input{
+    display:block;
+    width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+ }
+
+ #qr-input:focus{
+  outline-color: darkgreen;
+ }
+ h1{
+    margin-bottom: 20px;
+ }
+
+ #Generate{
+    padding:4px;
+    font-weight: 700;
+    width: 100%;
+    background-color: darkgreen;
+    color:white;
+    font-size: large;
+    margin-bottom: 15px;
+ }
+
+ #image{
+    display:flex;
+    justify-content: center;
+ }
